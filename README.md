@@ -23,10 +23,10 @@ Ubuntu 16.04: `deb https://apt.dockerproject.org/repo ubuntu-xenial main`<br />
 `$	wget -P /tmp https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.0-rc.3/nvidia-docker_1.0.0.rc.3-1_amd64.deb`<br />
 `$	sudo dpkg -i /tmp/nvidia-docker*.deb && rm /tmp/nvidia-docker*.deb`<br />
 ## 3. Pull a docker image you will use.
-Ex) Pull cuda-torch.<br />
+Ex) Pull cuda-torch. ([source](https://hub.docker.com/r/kaixhin/cuda-torch/))<br />
 `$	sudo docker pull kaixhin/cuda-torch:latest`<br />
-## 4. Account setup for your image.
-This setup enables getting the same authority between your host account and your image account.<br />
+## 4. Account setup for your image. 
+This setup enables getting the same authority between your host account and your image account. ([source](http://www.projectatomic.io/docs/docker-image-author-guidance/))<br />
 Get your user id and group id in your host system.<br />
 `$	id`<br />
 Get into your container and make the same account.<br />
