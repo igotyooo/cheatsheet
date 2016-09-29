@@ -32,6 +32,6 @@ Get your user id and group id in your host system.<br />
 Get into your container and make the same account.<br />
 `$	groupadd -r dgyoo -g 1000`<br />
 `$	useradd -u 1000 -g dgyoo -m -s /bin/bash dgyoo`<br />
-Optional) Give image users an authority to execute and read files in `/root/` if some packages are installed there like Torch.<br />
+(Optional) Give an authority for image users to execute and read files in `/root/` if some packages are installed there like Torch.<br />
 `$	chmod -R 555 /root/`<br />
 
