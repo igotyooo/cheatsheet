@@ -1,12 +1,6 @@
 Add the following to `~/.bashrc` in the host.
 ```
 # added by me.
-cd ~/
-alias v='vim'
-```
-Add the following to `~/.bashrc` inside image.
-```
-# added by me.
 alias v='vim'
 alias docker='sudo nvidia-docker'
 alias torchos='sudo nvidia-docker run -it -u dgyoo \
@@ -17,4 +11,10 @@ alias torchos='sudo nvidia-docker run -it -u dgyoo \
                 dgyoo/cuda-torch:latest'
 alias torchosroot='sudo nvidia-docker run -it -u root dgyoo/cuda-torch:latest'
 . /root/torch/install/bin/torch-activate
+```
+Add the following to `~/.bashrc` inside image.
+```
+# added by me.
+cd ~/
+alias v='vim'
 ```
