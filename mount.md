@@ -1,4 +1,4 @@
-### Mount after format ([source](https://joshstrange.com/ubuntu-formatting-a-3tb-drive/))
+### Format and mount ([source](https://joshstrange.com/ubuntu-formatting-a-3tb-drive/))
 1. Find and choose your target drive name.</br>
 `$ lsblk`</br>
 `$ sudo parted /dev/sdX`</br>
