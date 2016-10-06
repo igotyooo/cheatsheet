@@ -28,8 +28,8 @@ press `ctrl`+`alt`+`F1` and </br>
 `$ sudo reboot`</br>
 7. Download and extract [cuDNN](https://developer.nvidia.com/cudnn) in your preferred location.
 8. Add the following in your `~/.bashrc`</br>
-`$ export PATH=/usr/local/cuda-<version>/bin:$PATH`</br>
-`$ export LD_LIBRARY_PATH=/usr/local/cuda-<version>/lib64:$LD_LIBRARY_PATH`</br>
+`$ export PATH=/usr/local/cuda/bin:$PATH`</br>
+`$ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH`</br>
 `$ export LD_LIBRARY_PATH=<cuDNN path>:$LD_LIBRARY_PATH`</br>
 
 **Note)** To use cuDNN, add `<cuDNN path>` to your build and link process by adding `-I <cuDNN path>` to your compile line and `-L <cuDNN path> -lcudnn` to your link line.
