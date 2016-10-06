@@ -1,4 +1,4 @@
-### Installing NVIDIA graphic driver ONLY
+### Installing NVIDIA graphic driver *ONLY*
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
@@ -20,7 +20,7 @@ $ nvidia-smi
 4. Depackage that.</br>
 `$ sudo dpkg -i cuda-repo-<distro>_<version>_<architecture>.deb`</br>
 `$ sudo apt-get update`</br>
-5. If you don't have graphic driver installed so you install that at ones,</br>
+5. If you don't have a graphic driver installed so you wanted to install that together,</br>
 press `ctrl`+`alt`+`F1` and </br>
 `$ sudo service lightdm stop`</br>
 6. Install cuda-toolkit and reboot.</br>
