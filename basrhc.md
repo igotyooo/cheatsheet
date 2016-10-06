@@ -1,3 +1,4 @@
+### For using nvidia-docker
 Add the following to `~/.bashrc` in the host.
 ```
 # added by me.
@@ -17,4 +18,14 @@ Add the following to `~/.bashrc` inside image.
 # added by me.
 cd ~/
 alias v='vim'
+```
+
+### Without nvidia-docker
+Add the following to `~/.bashrc`.</br>
+```
+# added by me.
+alias v='vim'
+export PATH=/usr/local/cuda-<version>/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-<version>/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=<cuDNN path>:$LD_LIBRARY_PATH
 ```
