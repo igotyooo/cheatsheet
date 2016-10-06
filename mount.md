@@ -27,9 +27,9 @@
 `$ lsblk`</br>
 2. Make a mount point.</br>
 `$ mkdir <mount point>`</br>
-3. Copy the UUID of your drive from the output of</br>
+3. Copy the UUID and the type of your drive from the output of</br>
 `$ sudo blkid`</br>
 4. Add the following in `/etc/fstab`.</br>
-`<UUID> <mount point> ext4 defaults 1 2`</br>
+`<UUID> <mount point> <type> defaults 1 2`</br>
 5. Mount.</br>
 `$ sudo mount -a`</br>
