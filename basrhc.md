@@ -6,6 +6,7 @@ alias v='vim'
 alias docker='sudo nvidia-docker'
 alias torchos='sudo nvidia-docker run -it -u dgyoo \
                 -v ~/workspace/src:/home/dgyoo/workspace/src \
+                -v ~/workspace/net:/home/dgyoo/workspace/net \
                 -v /data1/dgyoo/workspace/datain/:/home/dgyoo/workspace/datain \
                 -v /data2/dgyoo/workspace/dataout:/home/dgyoo/workspace/dataout \
                 dgyoo/cuda-torch:latest'
