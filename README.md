@@ -1,1 +1,1 @@
-# Machine setup.
+##Cheatsheet
