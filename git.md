@@ -16,3 +16,7 @@ $ git checkout master
 $ git merge branchname
 $ git branch -d branchname
 ```
+### Restoration
+- `git reset HEAD^` is useful for canceling the latest commit that has not yet been pushed. The working tree is reserved.</br>
+- `git revert HEAD` is useful for canceling the latest commit that has been pushed.</br>
+- `git reset --hard ORIG_HEAD` is useful for canceling the current merge.</br>
