@@ -10,7 +10,7 @@ Sum of the owner permission codes: `x`</br>
 Sum of the owner group permission codes: `y`</br>
 Sum of the rest user/group permission codes: `z`</br>
 
-### By character permission codes.
+### By character permission codes
 #### Character class codes
 Owner: `u`</br>
 Owner group: `g`</br>
@@ -21,14 +21,14 @@ All: `a` (default if not specified)</br>
 Add the permissions: `+`</br>
 Remove the permissions: `-`</br>
 
-#### Character permission code.
+#### Character permission code
 Read: `r`, write: `w`, execute: `e`.</br>
 
 #### Syntax
 `$ chmod [-R] <classes><operation><permissions>`</br>
 Recursive: `-R`</br>
 
-## Change owner.
+## Change owner
 #### Syntax
 `chown [-R] <user>[:<group>] <target1> [<target2> ..]`</br>
 Recursive: `-R`</br>
