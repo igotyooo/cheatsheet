@@ -22,7 +22,7 @@ Add the permissions: `+`</br>
 Remove the permissions: `-`</br>
 
 #### Character permission code
-Read: `r`, write: `w`, execute: `e`.</br>
+Read: `r`, write: `w`, execute: `x`.</br>
 
 #### Syntax
 `$ chmod [-R] <classes><operation><permissions>`</br>
