@@ -1,20 +1,28 @@
 ### Work in branch
-Make a branch as follows.
+Create a branch as follows.
 ```
 $ git branch branchname
 $ git checkout branchname
-$ git push origin branchname
 ```
 Can see local/remote branches as</br>
 ```
 $ git branch
 $ git branch -r
+$ git branch -a
 ```
 Merge</br>
 ```
 $ git checkout master
 $ git merge branchname
+
+```
+Delete a local branch</br>
+```
 $ git branch -d branchname
+```
+Delete a remote branch</br>
+```
+$ git push origin --delete <branch_name>
 ```
 ### Restoration
 - `git reset HEAD^` is useful for canceling the latest commit that has not yet been pushed. The working tree is reserved.</br>
